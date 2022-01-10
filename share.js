@@ -31,8 +31,8 @@ function setShare() {
    });
   }
 
-  
-function kakaoShare() {
+  /*수정 수정 수정*/
+/*function kakaoShare() {
    Kakao.Link.sendDefault({
        objectType: 'feed',
        content: {
@@ -96,4 +96,4 @@ function kakaoShare() {
        },
        ]
    })
-}
+}*/
