@@ -1,0 +1,78 @@
+#qna{
+    background-color: floralwhite;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    text-align:center;
+    border-radius:20px;
+    display: none;
+}
+
+.qBox{
+    background-color:rgb(233, 236, 192);
+    text-align:center;
+    border-radius:20px;
+    font-size:20px;
+    width:80%;
+}
+
+.answerList{
+    background-color: rgba(255, 209, 216, 0.979);
+    /*background-image: url('pelephant.jpg');
+    background-repeat: no-repeat;
+    background-size:50px 70px;
+    background-position:left;
+    width:100vh;
+    */
+
+    border-radius: 10px;
+    display: block;
+    width:50%;
+    border:0px;
+    font-size:20px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: red;
+    color:seashell;
+}
+
+.circleBox{
+    width:108px;
+    height:20px;
+    /*background-color: darksalmon;
+    margin:5px auto;*/
+}
+
+#circle1{
+    float:left;
+    margin-left:5%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color: indigo;
+}
+#circle2{
+    float:left;
+    margin-left:5%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color: orangered;
+}
+#circle3{
+    float:right;
+    margin-right:5%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color: darkseagreen;
+}
+#circle4{
+    float:right;
+    margin-right:5%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color: orchid;
+}

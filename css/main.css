@@ -1,0 +1,18 @@
+#main{
+    background-color: floralwhite;
+    width: 80%;
+    height: 90%;
+    text-align:center;
+    border-radius:20px;
+}
+.container{
+    height:100%;
+}
+
+body{
+    background-color: rgb(245,209,87);
+    height: 100%;
+}
+p{
+    font-size:22px;
+}
