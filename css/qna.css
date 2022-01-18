@@ -1,4 +1,5 @@
 #qna{
+    position: relative;
     background-color: floralwhite;
     width: 80%;
     height: 600px;
@@ -38,6 +39,9 @@
 }
 
 .circleBox{
+    position:absolute;
+    left: 30%; 
+    bottom: 5%;
     width:108px;
     height:20px;
     /*background-color: darksalmon;
