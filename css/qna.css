@@ -40,17 +40,18 @@
 
 .circleBox{
     position:absolute;
-    left: 30%; 
+    left: 20%;
+    right: 20%; 
     bottom: 5%;
-    width:108px;
-    height:20px;
+    width:105px;
+    height:5%;
     /*background-color: darksalmon;
     margin:5px auto;*/
 }
 
 #circle1{
     float:left;
-    margin-left:5%;
+    margin-left:5px;
     width:20px;
     height:20px;
     border-radius:50%;
@@ -58,7 +59,7 @@
 }
 #circle2{
     float:left;
-    margin-left:5%;
+    margin-left:5px;
     width:20px;
     height:20px;
     border-radius:50%;
@@ -66,7 +67,7 @@
 }
 #circle3{
     float:right;
-    margin-right:5%;
+    margin-right:5px;
     width:20px;
     height:20px;
     border-radius:50%;
@@ -74,7 +75,7 @@
 }
 #circle4{
     float:right;
-    margin-right:5%;
+    margin-right:5px;
     width:20px;
     height:20px;
     border-radius:50%;
