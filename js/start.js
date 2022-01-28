@@ -16,9 +16,10 @@ function setResult(){
     
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.jpg';
+    var imgURL = 'img/image-' + point + '.png';
     resultImg.src = imgURL;
     resultImg.alt = point;
+    resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
 
     const resultDesc = document.querySelector('.resultDesc');
@@ -74,39 +75,38 @@ function addAnswer(answerText, n, idx) {
 }
 
 function goNext(n) {
-    var c1=document.getElementById("circle1");
-    var c2=document.getElementById("circle2");
-    var c3=document.getElementById("circle3");
-    var c4=document.getElementById("circle4");
-
-    if(n==0){
-        c1.style.backgroundColor="rgba(218, 112, 214)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-    }else if(n==1){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-    }else if(n==2){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214)";
-    }else if(n==3){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-    }else if(n === endPoint){
+    var c1 = document.querySelector("#circle1");
+    var c2 = document.querySelector("#circle2");
+    var c3 = document.querySelector("#circle3");
+    var c4 = document.querySelector("#circle4");
+    if(n === endPoint){
         c1.style.visibility='hidden';
         c2.style.visibility='hidden';
         c3.style.visibility='hidden';
         c4.style.visibility='hidden';
         goResult();
     }
-   
+    if(n==0){
+        c2.style.visibility='hidden';
+        c3.style.visibility='hidden';
+        c4.style.visibility='hidden';
+    } else if(n==1){
+        c1.style.visibility='hidden';
+        c2.style.visibility='visible';
+        c3.style.visibility='hidden';
+        c4.style.visibility='hidden';
+    } else if(n==3){
+        c1.style.visibility='hidden';
+        c2.style.visibility='hidden';
+        c3.style.visibility='visible';
+        c4.style.visibility='hidden';
+    } else if(n==2){
+        c1.style.visibility='hidden';
+        c2.style.visibility='hidden';
+        c3.style.visibility='hidden';
+        c4.style.visibility='visible';
+    }
+
     var q = document.querySelector('.qBox');
     q.innerHTML = qnaList[n].q;
     for (let i in qnaList[n].a) {
