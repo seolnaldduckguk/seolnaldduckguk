@@ -2,5 +2,13 @@
     background-color: white;
     width: 70%;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 28px;
+    font-family: 'JoongnajocheM-KSCpc-EUC-H';
+}
+
+@font-face {
+    font-family: 'JoongnajocheM-KSCpc-EUC-H';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/JoongnajocheM-KSCpc-EUC-H.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

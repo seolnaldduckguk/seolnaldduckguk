@@ -3,9 +3,14 @@ body {
 }
 
 h3{
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'JoongnajocheM-KSCpc-EUC-H', sans-serif;
+    font-size: 40px;
 }
 
 p{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'NotoSerifKR', serif;
+}
+
+h1{
+    font-family: 'JoongnajocheM-KSCpc-EUC-H', sans-serif;
 }
