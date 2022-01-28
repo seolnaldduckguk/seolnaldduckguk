@@ -15,22 +15,17 @@
     border-radius:20px;
     font-size:20px;
     width:80%;
+    font-family: 'IM_Hyemin-Bold';
 }
 
 .answerList{
     background-color: rgba(255, 209, 216, 0.979);
-    /*background-image: url('pelephant.jpg');
-    background-repeat: no-repeat;
-    background-size:50px 70px;
-    background-position:left;
-    width:100vh;
-    */
-
     border-radius: 10px;
     display: block;
     width:50%;
     border:0px;
     font-size:20px;
+    font-family: 'IM_Hyemin-Regular';
 }
 
 .answerList:hover, .answerList:focus{
@@ -45,8 +40,6 @@
     bottom: 5%;
     width:105px;
     height:5%;
-    /*background-color: darksalmon;
-    margin:5px auto;*/
 }
 
 #circle1{
@@ -80,4 +73,18 @@
     height:20px;
     border-radius:50%;
     background-color: orchid;
+}
+
+@font-face {
+    font-family: 'IM_Hyemin-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
