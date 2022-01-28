@@ -16,9 +16,10 @@ function setResult(){
     
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.jpg';
+    var imgURL = 'img/image-' + point + '.png';
     resultImg.src = imgURL;
     resultImg.alt = point;
+    resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
 
     const resultDesc = document.querySelector('.resultDesc');
