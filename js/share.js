@@ -1,12 +1,18 @@
-const url = 'https://ddeokguk.netlify.app/';
+const url = 'https://ddeokguk.netlify.app';
  
 function setShare() {
+    var r;
+    if(infopoint==0){
+        r=0;
+    }else{
+        r=infopoint%39;
+    }
     var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '신년운세 결과';
-    const shareDes = infoList[infopoint].name;
+    const shareDes = infoList[resultAlt].name;
     const shareImage = url + 'img/image-' + resultAlt + '.png';
-    const shareURL = url + 'page/result-' + infopoint + '.html';
+    const shareURL = url + 'page/result-' + r + '.html';
       
     Kakao.Link.sendDefault({
     objectType: 'feed',
