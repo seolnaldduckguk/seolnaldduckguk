@@ -9,6 +9,14 @@ function setResult(){
     const resultName = document.querySelector('.namer');
     resultName.innerHTML = infoList[infopoint].name;
     
+    var BackgroundImg = document.createElement('img');
+    const imgDiv2 = document.querySelector('#resultImgBackground');
+    var BimgURL='img/image-4444.png';
+    BackgroundImg.src=BimgURL;
+    BackgroundImg.alt="BackgroundImg";
+    BackgroundImg.classList.add('img-fluid');
+    imgDiv2.appendChild(BackgroundImg);
+
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
     var imgURL = 'img/image-' + point + '.png';
