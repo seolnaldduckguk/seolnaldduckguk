@@ -4,9 +4,9 @@ function setShare() {
     var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '신년운세 결과';
-    const shareDes = infoList[resultAlt].name;
-    const shareImage = url + 'img/image-' + resultAlt + '.jpg';
-    const shareURL = url + 'page/result-' + resultAlt + '.html';
+    const shareDes = infoList[infopoint].name;
+    const shareImage = url + 'img/image-' + resultAlt + '.png';
+    const shareURL = url + 'page/result-' + infopoint + '.html';
       
     Kakao.Link.sendDefault({
     objectType: 'feed',
