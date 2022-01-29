@@ -1,0 +1,19 @@
+body {
+    background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h3{
+    font-family: 'JoongnajocheM-KSCpc-EUC-H', sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'NotoSerifKR', serif;
+}
+
+h1{
+    font-family: 'JoongnajocheM-KSCpc-EUC-H', sans-serif;
+}
