@@ -1,0 +1,59 @@
+#result{
+    background-color: floralwhite;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    text-align:center;
+    border-radius:20px;
+    display: none; 
+    font-family: 'NotoSerifKR';
+}
+
+.kakao{
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-family: 'IM_Hyemin-Regular';
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+
+.w-btn-yellow {
+    background-color: #fce205;
+    color: #6e6e6e;
+}
+
+.kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
+    color: #FEE500;
+}
+
+.namer{
+    font-size: 23px;
+    color: palevioletred;
+    font-family: 'IM_Hyemin-Bold';
+}
+.resultDesc{
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
