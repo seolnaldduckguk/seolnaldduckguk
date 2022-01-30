@@ -84,25 +84,25 @@ function goNext(n) {
     var c4=document.getElementById("circle4");
 
     if(n==0){
-        c1.style.backgroundColor="rgba(218, 112, 214)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
+        c1.style.backgroundColor="rgba(58, 123, 213)";
+        c2.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c3.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c4.style.backgroundColor="rgba(175, 196, 231, 0.5)";
     }else if(n==1){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
+        c1.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c2.style.backgroundColor="rgba(58, 123, 213)";
+        c3.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c4.style.backgroundColor="rgba(175, 196, 231, 0.5)";
     }else if(n==2){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c4.style.backgroundColor="rgba(218, 112, 214)";
+        c1.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c2.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c3.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c4.style.backgroundColor="rgba(58, 123, 213)";
     }else if(n==3){
-        c1.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c2.style.backgroundColor="rgba(218, 112, 214, 0.5)";
-        c3.style.backgroundColor="rgba(218, 112, 214)";
-        c4.style.backgroundColor="rgba(218, 112, 214, 0.5)";
+        c1.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c2.style.backgroundColor="rgba(175, 196, 231, 0.5)";
+        c3.style.backgroundColor="rgba(58, 123, 213)";
+        c4.style.backgroundColor="rgba(175, 196, 231, 0.5)";
     }else if(n === endPoint){
         c1.style.visibility='hidden';
         c2.style.visibility='hidden';
