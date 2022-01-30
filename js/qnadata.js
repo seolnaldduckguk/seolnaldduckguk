@@ -1,7 +1,7 @@
 
 const qnaList=[
     {
-        q: '만약 하루 동안<br> 함께 해야 한다면<br>\n어떤 동물과?',
+        q: '만약 하루를 함께한다면<br>\n 어떤 동물과?',
         a: [
             {answer: '코끼리', type:[1]},
             {answer: '거북이', type:[2]},
