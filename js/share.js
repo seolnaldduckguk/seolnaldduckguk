@@ -7,12 +7,13 @@ function setShare() {
     }else{
         r=infopoint%39;
     }
-    var resultImg = document.querySelector('#resultImg');
-    var resultAlt = resultImg.firstElementChild.alt;
+    /*var resultImg = document.querySelector('#resultImg');
+    var resultAlt = resultImg.firstElementChild.alt;*/
     const shareTitle = '신년운세 결과';
     const shareDes = infoList[r].name;
-    const shareImage = url + 'img/image-' + resultAlt + '.png';
-    const shareURL = url + 'page/result-' + r + '.html';
+   // shareDes.trim();
+    const shareImage = url + 'img/share.jpg';
+    /*const shareURL = url;*/
       
     Kakao.Link.sendDefault({
     objectType: 'feed',
@@ -21,16 +22,16 @@ function setShare() {
      description: shareDes,
       imageUrl: shareImage,
       link: {
-        mobileWebUrl: shareURL,
-         webUrl: shareURL
+        mobileWebUrl: url,
+         webUrl: url
     },
    },
    buttons: [
      {
-       title: '결과확인하기',
+       title: '나도 참여하기',
        link: {
-       mobileWebUrl: shareURL,
-       webUrl: shareURL
+       mobileWebUrl: url,
+       webUrl: url
       },
     },
    ]
