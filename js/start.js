@@ -134,3 +134,17 @@ function begin() {
         goNext(n);
     }, 300);
 }
+
+function moveHome() {
+    result.style.WebkitAnimation = "fadeOut 0.8s";
+    result.style.animation = "fadeOut 0.8s";
+    setTimeout(() => {
+        main.style.WebkitAnimation = "fadeIn 0.8s";
+        main.style.animation = "fadeIn 0.8s";
+        setTimeout(() => {
+            result.style.display = "none";
+            main.style.display = "block";
+        }, 300)
+    }
+    )
+}
