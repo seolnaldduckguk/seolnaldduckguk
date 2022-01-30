@@ -7,13 +7,11 @@ function setShare() {
     }else{
         r=infopoint%39;
     }
-    /*var resultImg = document.querySelector('#resultImg');
-    var resultAlt = resultImg.firstElementChild.alt;*/
     const shareTitle = '신년운세 결과';
-    const shareDes = infoList[r].name;
-   // shareDes.trim();
-    const shareImage = url + 'img/share.jpg';
-    /*const shareURL = url;*/
+    var shareDes = infoList[r].name;
+    shareDes.toString();
+    shareDes = shareDes.replace(/(<br>)/g, ' ');
+    const shareImage = url + '/img/share.jpg';
       
     Kakao.Link.sendDefault({
     objectType: 'feed',
